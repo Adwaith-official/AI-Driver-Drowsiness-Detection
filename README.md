@@ -25,6 +25,16 @@ This project is a real-time driver drowsiness detection system developed using P
 - Requests
 - ESP32
 
+## Download the Facial Landmark Model
+
+This project requires the `shape_predictor_68_face_landmarks.dat` model file, which is not included in this repository due to its size.
+
+Download it from:
+
+http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2
+
+Extract the downloaded archive and place the `shape_predictor_68_face_landmarks.dat` file in the project root directory.
+
 ## Project Structure
 
 ```
@@ -38,7 +48,7 @@ AI-Driver-Drowsiness-Detection/
 │   ├── output.png
 │   └── setup.png
 └── ESP32_Code/
-    └── esp32.ino
+    └── esp_code.ino
 ```
 
 ## Installation
